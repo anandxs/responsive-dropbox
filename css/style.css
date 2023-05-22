@@ -227,10 +227,20 @@ main {
 #first video {
     width: 100%;
     max-width: 768px;
+    margin: 1rem 0;
 }
 
-#features {
+#first {
     padding: 3rem 0;
+}
+
+#first button {
+    background: #3984ff;
+    padding: 1em;
+}
+
+#first button:hover {
+    background: #639fff;
 }
 
 #features h2 {
