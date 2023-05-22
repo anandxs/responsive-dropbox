@@ -9,7 +9,6 @@
 }
 
 body {
-    background: #000;
     font-family: 'atlas';
 }
 
@@ -212,12 +211,9 @@ nav ul li {
     font-weight: 100;
 }
 
-main {
-    background: #1e1919;
-}
-
 #first {
     color: #fff;
+    background: #1e1919;
 }
 
 #first h2 {
@@ -275,10 +271,15 @@ main {
     font-size: 0.8rem;
 }
 
-#features h2 {
+.subheading {
     text-align: center;
     font-size: 1.3em;
 }
+
+/* #features h2 { */
+    /* text-align: center; */
+    /* font-size: 1.3em; */
+/* } */
 
 #features h4 {
     font-size: 0.8rem;
@@ -294,4 +295,35 @@ main {
     width: 50px;
     height: auto;
     margin: 15px 0;
+}
+
+#products-body h2 {
+    font-family: 'sharp';
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#products-body img {
+    width: 50px;
+    height: auto;
+    margin: 1rem 0;
+}
+
+#products-body h6 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+#products-body p {
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.learn-more {
+    color: #000;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 700;
 }
