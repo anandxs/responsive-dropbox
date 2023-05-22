@@ -3,6 +3,11 @@
     src: url(../fonts/Atlas.Grotesk/EM-Atlas.Grotesk/AtlasGrotesk-Regular.otf);
 }
 
+@font-face {
+    font-family: 'sharp';
+    src: url(../fonts/Sharp_Grotesk/SharpGrotesk-Light20.otf);
+}
+
 body {
     background: #000;
     font-family: 'atlas';
@@ -47,9 +52,9 @@ nav ul li {
     display: none;
 }
 
-.nav-list-2 li:nth-child(1),
-.nav-list-2 li:nth-child(2),
-.nav-list-2 li:nth-child(5) {
+.nav-list-2 > li:nth-child(1),
+.nav-list-2 > li:nth-child(2),
+.nav-list-2 > li:nth-child(5) {
     display: none;
 }
 
@@ -59,6 +64,10 @@ nav ul li {
     padding: 0.4rem;
     border-style: none;
     outline-style: none;
+}
+
+.nav-list-2 button:hover {
+    background: #639fff;
 }
 
 .nav-list-2 {
@@ -89,7 +98,8 @@ nav ul li {
         align-items: center;
     }
 
-    .nav-list-1 > li {
+    .nav-list-1 > li,
+    .nav-list-2 > li:nth-child(-n+4) {
         padding: 12px 15px;
     }
 
@@ -132,6 +142,19 @@ nav ul li {
     left: 412px;
 }
 
+#contact {
+    position: absolute;
+    top: 48px;
+    left: 760px;
+}
+
+#get-app {
+    position: absolute;
+    top: 48px;
+    left: 1000px;
+    width: 200px;
+}
+
 .popup li {
     font-size: 0.6rem;
     margin: 9px 0;
@@ -142,15 +165,25 @@ nav ul li {
     font-weight: 700;
 }
 
+.inner-hover li {
+    padding: 5px 0;
+}
+
+.inner-hover li:hover {
+    background: #f7f5f2;
+}
+
 .nav-list-1 li:nth-child(1):hover > .popup,
 .nav-list-1 li:nth-child(2):hover > .popup,
-.nav-list-1 li:nth-child(3):hover > .popup {
+.nav-list-1 li:nth-child(3):hover > .popup,
+.nav-list-2 li:nth-child(1):hover > .popup,
+.nav-list-2 li:nth-child(2):hover > .popup {
     display: flex;
     gap: 5rem;
 }
 
-.nav-list-1 li:hover,
-.nav-list-2 li:hover {
+.nav-list-1 > li:hover,
+.nav-list-2 > li:hover {
     background: #f2eee8;
 }
 
@@ -177,4 +210,17 @@ nav ul li {
     grid-column: 3;
     font-size: 0.9em;
     font-weight: 100;
+}
+
+main {
+    background: #1e1919;
+}
+
+#first {
+    color: #fff;
+}
+
+#first video {
+    width: 100%;
+    max-width: 768px;
 }
