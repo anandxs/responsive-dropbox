@@ -346,3 +346,31 @@ nav ul li {
     background: #1e1919;
     color: #f7f5f2;
 }
+
+#how h2 {
+    margin: 3rem 0;
+}
+
+#milestones {
+    margin: 1rem 0;
+}
+
+.milestone {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.milestone h4 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.milestone p {
+    font-size: 0.8rem;
+}
+
+#how h2 {
+    font-family: 'sharp';
+    text-align: center;
+}
