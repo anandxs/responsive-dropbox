@@ -341,3 +341,8 @@ nav ul li {
     flex-direction: column;
     justify-content: space-between;
 }
+
+#how {
+    background: #1e1919;
+    color: #f7f5f2;
+}
