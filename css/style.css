@@ -226,12 +226,12 @@ nav ul li {
     padding: 3rem 0;
 }
 
-#first button {
+button {
     background: #3984ff;
     padding: 1em;
 }
 
-#first button:hover {
+button:hover {
     background: #639fff;
 }
 
@@ -349,6 +349,20 @@ nav ul li {
 
 #how h2 {
     margin: 3rem 0;
+}
+
+.type img {
+    width: 100%;
+    height: auto;
+}
+
+.type h4 {
+    font-size: 1.5rem;
+    font-family: 'sharp';
+}
+
+.type p {
+    font-size: 0.8rem;
 }
 
 #milestones {
