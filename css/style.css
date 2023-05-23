@@ -433,6 +433,15 @@ button:hover {
     color: #f7f5f2;
 }
 
+#testimonies a {
+    color: #f7f5f2;
+    font-size: 0.8rem;
+}
+
+#testimonies a:hover {
+    text-decoration: none;
+}
+
 footer {
     background: #000;
     color: #fff;
