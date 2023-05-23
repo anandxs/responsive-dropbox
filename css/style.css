@@ -483,6 +483,10 @@ footer a:hover {
     text-decoration: underline;
 }
 
+#socials li {
+    list-style: none;
+}
+
 #socials a {
     font-size: 1.3rem;
 }

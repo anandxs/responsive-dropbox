@@ -296,11 +296,13 @@
                 </div>
             </section>
             <section id="else">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-8"><h2>What else can Dropbox help you do?</h2></div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-8"><h3>Dropbox brings everything—traditional files, cloud content, and web shortcuts—together in one place.</h3></div>
+                <div class="container mt-5">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-8"><h2>What else can Dropbox help you do?</h2></div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-8"><h3>Dropbox brings everything—traditional files, cloud content, and web shortcuts—together in one place.</h3></div>
+                    </div>
                 </div>
             </section>
             <section id="tools">
@@ -373,7 +375,7 @@
         <footer>
             <div class="container pt-5 pb-5">
                 <div class="row justify-content-between">
-                    <div class="col-6 col-md-4 col-xl-2">
+                    <div class="col-6 col-md-4 col-xl-2 pb-3">
                         <h6>Dropbox</h6>
                         <ul>
                             <li><a href="#">Desktop app</a></li>
@@ -386,7 +388,7 @@
                             <li><a href="#">Advance access</a></li>
                         </ul>
                     </div>
-                    <div class="col-6 col-md-4 col-xl-2">
+                    <div class="col-6 col-md-4 col-xl-2 pb-3">
                         <h6>Products</h6>
                         <ul>
                             <li><a href="#">Plus</a></li>
@@ -399,7 +401,7 @@
                             <li><a href="#">Product updates</a></li>
                         </ul>
                     </div>
-                    <div class="col-6 col-md-4 col-xl-2">
+                    <div class="col-6 col-md-4 col-xl-2 pb-3">
                         <h6>Support</h6>
                         <ul>
                             <li><a href="#">Help Center</a></li>
@@ -411,7 +413,7 @@
                             <li><a href="#">Learning resources</a></li>
                         </ul>
                     </div>
-                    <div class="col-6 col-md-4 col-xl-2">
+                    <div class="col-6 col-md-4 col-xl-2 pb-3">
                         <h6>Community</h6>
                         <ul>
                             <li><a href="#">Blog</a></li>
@@ -422,7 +424,7 @@
                             <li><a href="#">Integration partners</a></li>
                         </ul>
                     </div>
-                    <div class="col-6 col-md-4 col-xl-2">
+                    <div class="col-6 col-md-4 col-xl-2 pb-3">
                         <h6>Company</h6>
                         <ul>
                             <li><a href="#">About us</a></li>
@@ -434,12 +436,55 @@
                     </div>
                 </div>
                 <div>
-                    <div id="socials">
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <ul id="socials" class="d-flex mb-3">
+                        <li><a href="#" class="p-1"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#" class="p-1"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#" class="p-1"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                    <hr>
+                    <a href=""></a>
+                    <!-- Button trigger modal -->
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fa-solid fa-globe"></i> English (United States) >
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-dark" id="exampleModalLabel">Choose a language</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <li><a href="" class="text-primary">Bahasa Indonesia</a></li>
+                                        <li><a href="" class="text-primary">Bahasa Malaysia</a></li>
+                                        <li><a href="" class="text-primary">Dansk</a></li>
+                                        <li><a href="" class="text-primary">Deutsch</a></li>
+                                        <li><a href="" class="text-primary">English (United Kingdom)</a></li>
+                                        <li><a href="" class="text-primary">English (United States)</a></li>
+                                        <li><a href="" class="text-primary">Español (España)</a></li>
+                                        <li><a href="" class="text-primary">Español (Latinoamérica)</a></li>
+                                        <li><a href="" class="text-primary">Français</a></li>
+                                        <li><a href="" class="text-primary">Italiano</a></li>
+                                        <li><a href="" class="text-primary">Nederlands</a></li>
+                                        <li><a href="" class="text-primary">Norsk (bokmål)</a></li>
+                                        <li><a href="" class="text-primary">Polski</a></li>
+                                        <li><a href="" class="text-primary">Português (Brasil)</a></li>
+                                        <li><a href="" class="text-primary">Pусский</a></li>
+                                        <li><a href="" class="text-primary">Svenska</a></li>
+                                        <li><a href="" class="text-primary">Українська</a></li>
+                                        <li><a href="" class="text-primary">ไทย</a></li>
+                                        <li><a href="" class="text-primary">中文（简体）</a></li>
+                                        <li><a href="" class="text-primary">中文（繁體）</a></li>
+                                        <li><a href="" class="text-primary">日本語</a></li>
+                                        <li><a href="" class="text-primary">한국어</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <a href="#"><i class="fa-solid fa-globe"></i> English (United States) ></a>
                 </div>
             </div>
         </footer>
