@@ -387,6 +387,15 @@ button:hover {
     font-size: 0.8rem;
 }
 
+#else {
+    background: #f7f5f2;
+}
+
+#else h3 {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
 #tools {
     background: #f7f5f2;
 }
