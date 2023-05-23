@@ -415,10 +415,44 @@ button:hover {
     color: #1e1919;
     font-family: 'sharp';
     text-align: center;
+    font-weight: 900;
+}
+
+#tools img {
+    width: 50px;
+    height: auto;
+}
+
+#tools h5 {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+#tools p {
+    font-size: 0.8rem;
+}
+
+#tools a {
+    color: #1e1919;
+    font-size: 0.8rem;
+    font-weight: 100;
 }
 
 #tools a:hover {
     text-decoration: none;
+}
+
+.tool {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.tool-link {
+    display: flex;
+    justify-content: center;
 }
 
 footer {
