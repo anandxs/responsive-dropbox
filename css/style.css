@@ -8,6 +8,12 @@
     src: url(../fonts/Sharp_Grotesk/SharpGrotesk-Light20.otf);
 }
 
+h2 {
+    font-family: 'sharp';
+    text-align: center;
+    font-weight: 700;
+}
+
 body {
     font-family: 'atlas';
 }
@@ -218,10 +224,6 @@ nav ul li {
     background: #1e1919;
 }
 
-#first h2 {
-    font-family: 'sharp';
-}
-
 #first {
     padding: 3rem 0;
 }
@@ -259,17 +261,8 @@ button:hover {
     gap: 1rem;
 }
 
-#headings h2,
 #headings h3 {
     text-align: center;
-}
-
-#headings h2 {
-    font-family: 'sharp';
-    font-weight: 700;
-}
-
-#headings h3 {
     font-size: 0.8rem;
 }
 
@@ -277,11 +270,6 @@ button:hover {
     text-align: center;
     font-size: 1.3em;
 }
-
-/* #features h2 { */
-    /* text-align: center; */
-    /* font-size: 1.3em; */
-/* } */
 
 #features h4 {
     font-size: 0.8rem;
@@ -304,8 +292,6 @@ button:hover {
 }
 
 #products-body h2 {
-    font-family: 'sharp';
-    font-weight: 700;
     font-size: 1.5rem;
     text-align: center;
     color: #1e1919;
@@ -345,12 +331,6 @@ button:hover {
 #how {
     background: #1e1919;
     color: #f7f5f2;
-}
-
-#how h2 {
-    margin: 3rem 0;
-    font-family: 'sharp';
-    text-align: center;
 }
 
 .type {
@@ -413,8 +393,6 @@ button:hover {
 
 #tools h2 {
     color: #1e1919;
-    font-family: 'sharp';
-    text-align: center;
     font-weight: 900;
 }
 
@@ -450,9 +428,9 @@ button:hover {
     gap: 1rem;
 }
 
-.tool-link {
-    display: flex;
-    justify-content: center;
+#testimonies {
+    background: #1e1919;
+    color: #f7f5f2;
 }
 
 footer {
