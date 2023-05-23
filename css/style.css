@@ -407,6 +407,20 @@ button:hover {
     font-size: 0.8rem;
 }
 
+#tools {
+    background: #f7f5f2;
+}
+
+#tools h2 {
+    color: #1e1919;
+    font-family: 'sharp';
+    text-align: center;
+}
+
+#tools a:hover {
+    text-decoration: none;
+}
+
 footer {
     background: #000;
     color: #fff;
