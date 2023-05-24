@@ -444,7 +444,6 @@ button:hover {
 }
 
 #testimonies a {
-    color: #f7f5f2;
     font-size: 0.8rem;
 }
 
@@ -501,7 +500,8 @@ footer a:hover {
 }
 
 #testimonies h3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    font-weight: 700;
     font-family: 'sharp';
 }
 
@@ -513,19 +513,27 @@ footer a:hover {
     text-decoration: underline;
 }
 
+#testimonies p {
+    font-size: 0.mrem;
+}
+
 .box-1 {
     background: #9b0032;
+    color: #f7f5f2;
 }
 
 .box-2 {
     background: #fa551e;
+    color: #1e1919;
 }
 
 .box-3 {
     background: #007891;
+    color: #f7f5f2;
 }
 
 .box-4 {
+    color: #1e1919;
     background: #b4dc19;
 }
 
@@ -534,14 +542,30 @@ footer a:hover {
 }
 
 .box-5 {
+    color: #f7f5f2;
     background: #78286e;
     height: 420px;
 }
 
 .box-6 {
     background: #ffafa5;
+    color: #1e1919;
 }
 
 .box-7 {
     background: #fad24b;
+    color: #1e1919;
+}
+
+.box-1 a,
+.box-3 a,
+.box-5 a {
+    color: #f7f5f2;
+}
+
+.box-2 a,
+.box-4 a,
+.box-6 a,
+.box-7 a {
+    color: #1e1919;
 }
