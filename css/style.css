@@ -443,14 +443,6 @@ button:hover {
     color: #f7f5f2;
 }
 
-#testimonies a {
-    font-size: 0.8rem;
-}
-
-#testimonies a:hover {
-    text-decoration: none;
-}
-
 footer {
     background: #000;
     color: #fff;
@@ -500,12 +492,13 @@ footer a:hover {
 }
 
 #testimonies h3 {
-    font-size: 1.2rem;
+    font-size: 100%;
     font-weight: 700;
     font-family: 'sharp';
 }
 
 #testimonies a {
+    font-size: 70%;
     text-decoration: none;
 }
 
@@ -514,7 +507,7 @@ footer a:hover {
 }
 
 #testimonies p {
-    font-size: 0.mrem;
+    font-size: 50%;
 }
 
 .box-1 {
@@ -535,16 +528,6 @@ footer a:hover {
 .box-4 {
     color: #1e1919;
     background: #b4dc19;
-}
-
-.sophia {
-    height: 420px;
-}
-
-.box-5 {
-    color: #f7f5f2;
-    background: #78286e;
-    height: 420px;
 }
 
 .box-6 {
@@ -568,4 +551,10 @@ footer a:hover {
 .box-6 a,
 .box-7 a {
     color: #1e1919;
+}
+
+@media (max-width: 1024px) {
+    #testimonies img {
+        height: 388px !important;
+    }
 }
