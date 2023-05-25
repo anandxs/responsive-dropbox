@@ -26,7 +26,7 @@ nav {
     height: 48px;
     background: #fff;
     display: grid;
-    grid-template-columns: 173px 1fr 215px;
+    grid-template-columns: 48px 1fr 215px;
     grid-template-rows: 1fr;
 }
 
@@ -79,10 +79,25 @@ nav ul li {
 }
 
 .nav-list-2 {
+    height: 48px;
     grid-column: 3;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.company-name {
+    display: none;
+}
+
+@media (min-width: 373px) {
+    nav {
+        grid-template-columns: 160px 1fr 215px;
+    }
+
+    .company-name {
+        display: inline;
+    }
 }
 
 @media (min-width: 768px) {
