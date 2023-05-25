@@ -47,7 +47,7 @@ body {
 }
 
 nav {
-    z-index: 2;
+    z-index: 10;
     position: sticky;
     top: 0;
     width: 100%;
@@ -441,6 +441,7 @@ button:hover {
 
 #else {
     background: #f7f5f2;
+    margin: 0;
 }
 
 #else h3 {
@@ -604,9 +605,59 @@ footer a:hover {
     color: #1e1919;
 }
 
-/* @media (max-width: 1024px) { */
-/*     #testimonies img { */
-/*         height: 388px !important; */
-/*         width: auto !important; */
-/*     } */
-/* } */
+.img-bg {
+    padding: 2rem 1rem;
+}
+
+.img-bg img {
+    width: 95%;
+}
+
+.img-bg-1 {
+    background: #14c8eb;
+}
+
+.img-bg-2 {
+    background: #fa551e;
+}
+
+.img-bg-3 {
+    background: #fad24b;
+}
+
+.img-bg-4 {
+    background: #ffafa5;
+}
+
+.img-bg-5 {
+    background: #ff8c19;
+}
+
+.img-bg-6 {
+    background: #b4dc19;
+}
+
+.img-bg-7 {
+    background: #b4c8e1;
+}
+
+.img-bg-8 {
+    background: #c8aff0;
+}
+
+.accordion button {
+    font-family: 'atlas' !important;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.accordion p {
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+.accordion a {
+    color: #1e1919;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
