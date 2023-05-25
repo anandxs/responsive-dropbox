@@ -604,8 +604,9 @@ footer a:hover {
     color: #1e1919;
 }
 
-@media (max-width: 1024px) {
-    #testimonies img {
-        height: 388px !important;
-    }
-}
+/* @media (max-width: 1024px) { */
+/*     #testimonies img { */
+/*         height: 388px !important; */
+/*         width: auto !important; */
+/*     } */
+/* } */
